@@ -15,7 +15,7 @@ public class Operators{
 		System.out.println("1.Arithmetic operator\n 2]Logical Operator\n3]Relational Operator\n4]Bitwise Operator\n5]Conditional Operator\n6]Assignment Operator");
 		//To accept the values from user
 		Scanner sc= new Scanner(System.in);
-		System.out.println("\nEnter your choice=");
+		System.out.println("\nEnter your choice: ");
 		int choice=sc.nextInt();
 
 	switch (choice) 
@@ -23,9 +23,9 @@ public class Operators{
 		case 1:
 			System.out.println("***ARITHEMATIC OPERATORS***");	
 			System.out.println();
-			System.out.println("enter first number=");
+			System.out.println("enter first number: ");
 			int num1=sc.nextInt();
-			System.out.println("enter second number=");
+			System.out.println("enter second number: ");
 			int num2=sc.nextInt();
 
 			// 1] Addition operator( + )
@@ -59,9 +59,9 @@ public class Operators{
 			boolean first;
 			boolean second;
 
-			System.out.println("enter first  boolean condition=");
+			System.out.println("enter first  boolean condition:");
 			first=sc.nextBoolean();
-			System.out.println("enter second boolean condition=");
+			System.out.println("enter second boolean condition:");
 			second=sc.nextBoolean();
 
 			System.out.println("1]logical AND(&&):");
@@ -82,9 +82,9 @@ public class Operators{
 		case 3:
 			System.out.println("****RELATIONAL OPERATORS****");
 
-			System.out.println("enter first number=");
+			System.out.println("enter first number:");
 			int no_1=sc.nextInt();
-			System.out.println("enter second number=");
+			System.out.println("enter second number:");
 			int no_2=sc.nextInt();
 
 			System.out.println("1)Equal to (==):");
@@ -115,9 +115,9 @@ public class Operators{
 		case 4:
 			System.out.println("***BITWISE OPERATORS***");
 
-			System.out.println("enter first no.=");
+			System.out.println("enter first no: ");
 			int n1=sc.nextInt();
-			System.out.println("enter second no.=");
+			System.out.println("enter second n: ");
 			int n2=sc.nextInt();
 			
 			System.out.println("Bitwise AND(&):");
@@ -149,9 +149,9 @@ public class Operators{
 		    System.out.println("****CONDITIONAL OPERATORS****");
 			//ALSO CALLED TERNARY OPERATORS
 
-			System.out.println("enter a=");
+			System.out.println("enter a:");
 			int a=sc.nextInt();
-			System.out.println("enter b=");
+			System.out.println("enter b:");
 			int b=sc.nextInt();
 			
 			int max=(a > b) ? a : b;
@@ -163,7 +163,7 @@ public class Operators{
 		case 6:
 			System.out.println("***Assignment operators*** ");
 			System.out.println();
-			System.out.println("enter value");
+			System.out.println("enter value: ");
 			int num=sc.nextInt();
 			// 1] Simple Assignment Operator( = ) 
 			
