@@ -18,28 +18,27 @@ public class ROI {
 	//To accept the values from user
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("enter age of person=");
+        System.out.println("Enter age of person:");
         int age=sc.nextInt();
         System.out.println("Choose a gender option:");
         System.out.println("1. Male");
         System.out.println("2. Female");
-        
         int gender =sc.nextInt();
 
-    if(age>60)
-    {
-        if(gender==1)
-        {
-            System.out.println("Rate of Interest= 7%");
-        }
-        else 
-        {
-            System.out.println("Rate of Interest= 7.5%");
-        }
-    }
-    else
-    {
-        System.out.println("Rate of interest =5%");
-    }
+	    if(age>60)
+	    {
+	        if(gender==1)
+	        {
+	            System.out.println("Rate of Interest= 7%");
+	        }
+	        else 
+	        {
+	            System.out.println("Rate of Interest= 7.5%");
+	        }
+	    }
+	    else
+	    {
+	        System.out.println("Rate of interest =5%");
+	    }
     }
 }
