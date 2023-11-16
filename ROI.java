@@ -29,16 +29,16 @@ public class ROI {
 	    {
 	        if(gender==1)
 	        {
-	            System.out.println("Rate of Interest= 7%");
+	            System.out.println("Rate of Interest : 7%");
 	        }
 	        else 
 	        {
-	            System.out.println("Rate of Interest= 7.5%");
+	            System.out.println("Rate of Interest : 7.5%");
 	        }
 	    }
 	    else
 	    {
-	        System.out.println("Rate of interest =5%");
+	        System.out.println("Rate of interest : 5%");
 	    }
     }
 }
