@@ -4,7 +4,7 @@
 	3.Checkk the given character is vowel or not
 	4.check the given no is divible by 5 or not*/
 
-
+package com.operations;
 import java.util.*;
 
 public class Operations {
