@@ -10,7 +10,7 @@ M,F: 5%
 eg( age : 20 G: M  ROI=7%)
 
  */
-
+package com.roi;
 import java.util.*;
 
 public class ROI {
