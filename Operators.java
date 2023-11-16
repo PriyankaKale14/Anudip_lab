@@ -6,7 +6,7 @@
 	5.Conditional Operator
 	6.Assignment Operator*/
 
-
+package com.operators;
 import java.util.*;
 
 public class Operators{
